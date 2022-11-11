@@ -1,8 +1,8 @@
-> Este é o Repositório do Site de Agendamento de Espaços, desenvolvido por alunos do Synapse (2022/2)
+**Este é o Repositório do Site de Agendamento de Espaços, desenvolvido por alunos do Synapse (2022/2)**
 
 
 ## 👨‍💻 Desenvolvido utilizando
-<img src=https://github.dev/devicons/devicon/blob/v2.15.1/icons/angularjs/angularjs-original.svg" height="35px">  •  **Angular** &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="35px"> • **CSS3** &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="35px"> • **Javascript**
+<img src="https://github.dev/devicons/devicon/blob/v2.15.1/icons/angularjs/angularjs-original.svg" height="35px">  •  **Angular** &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="35px"> • **CSS3** &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="35px"> • **Javascript**
 
 <br>
 
