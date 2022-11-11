@@ -12,6 +12,8 @@
 
 <img src="https://avatars.githubusercontent.com/u/98772195?v=4" height="35px"> **[ • Henrique Garcia](https://github.com/rikegb " • Henrique Garcia")**
 
+<img src="https://avatars.githubusercontent.com/u/79113693?v=4" height="35px"> **[ • Karin Angela](https://github.com/KarinAngela " • Karin Angela")**
+
 <img src="https://avatars.githubusercontent.com/u/105088725?v=4" height="35px"> **[ • Lucas Finoti](https://github.com/lucasfinotirodrigues " • Lucas Finoti")**
 
 <img src="https://avatars.githubusercontent.com/u/111604032?v=4" height="35px"> **[ • Ricardo Alexandre](https://github.com/Ricardoxt1 " • Ricardo Alexandre")**
