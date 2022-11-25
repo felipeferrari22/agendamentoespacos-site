@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -12,14 +13,13 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
-export class AppComponent {
-  title = 'primeiro_projeto';
+  title = 'primeiro_projeto'
 
   mostrarsenha = false
 
-  mostrar(){
+  visibilidadesenha(){
     this.mostrarsenha  = !this.mostrarsenha
   }
   
 }
+

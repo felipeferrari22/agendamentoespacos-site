@@ -8,7 +8,9 @@
 }
 main {
   display: flex;  
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 .login {
@@ -22,23 +24,27 @@ main {
   padding: clamp(35px, 8%, 70px);
 }
 
-.wrapper {
+.itens {
+  height: 98vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .login_logo {
   width: 110px;
   margin-bottom: 30px;
+  margin-top: -55px;
 }
 
-.login_title {
+.titulo_principal{
   color: #398414;
   font-size: 26px;
   margin-bottom: 20px;
+  font-weight: 700;
   text-align: center;
   font-family:  'Montserrat','Open Sans', sans-serif;
 }
@@ -50,58 +56,39 @@ main {
 }
 
 .input {
-  height: 45px;
-  width: 100%;
-  background-color: #f1f0f5;
-  border: 2px solid rgba(0, 0, 0, 0);
-  border-radius: 50px;
-  outline: none;
-  font-size: 0.9em;
-  padding: 35px 10px 10px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  font-weight: 600;
-  color: #33303E;
+  padding:  15px 10px;
 }
-
 
 .login_label ::placeholder{
   color:  #7A7A7A;
   font-weight: 200;
-  margin-bottom: 20;
+  margin-bottom: 2;
   position: absolute;
   top: 15px; 
-  left: 2;
+  left: 2.5;
+  bottom: 5px;
 }
 
 
 
 .wallpaper {
-  width: 100%;
+  width: 70%;
   background-image: url('../../assets/img_login.jpeg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   flex: 1;
-}
-
-
-button{
-  width: 132px;
-  height: 45px;
-  border-radius: 50px;
-  color:#fff;
-  background-color: #ff9f10;
-  border: none;
 }
 
 .contato{
   margin-top: 50px;
 }
-.semi-bold{
+.subtitulo{
   color: #398414;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: -30px;
   text-align: center;
   font-family:  'Montserrat','Open Sans', sans-serif;
 
@@ -111,17 +98,21 @@ ul li{
   display: inline;
   margin-inline-end: 15px;
   font-weight: 300;
-  color: #33303E
- 
+  color: var(--gray-color-scale1); 
 }
 
 button :hover{
-background-color: #ED6316;
+background-color: var(--color-secondary);
+margin-bottom: 0;
 }
 
-
-
 .login_logo_fsnt{
-  margin-top:25px;
+  margin-top:15px;
+  margin-bottom: 0px;
   width: 200px;
+}
+.image{
+  position: relative;
+  left: 150px;
+  bottom: 52px;
 }

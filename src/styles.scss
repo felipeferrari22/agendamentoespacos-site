@@ -1,1 +1,116 @@
-/* You can add global styles to this file, and also import other style files */
+
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    height: 100vh;
+    // position: fixed;
+  
+
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Varição de cores & Fontes*/
+
+:root{
+--font-family-primary: 'Opens Sans', sans-serif;
+--font-family-second: 'Montserrat', sans-serif;
+--color-primary: #398414;
+--color-secondary: #FF9F10;
+--color-first: #FF0000;
+--color-second: #4EA926;
+--gray-color-scale1: #33303E;
+--gray-color-scale2: #7A7A7A;
+--gray-color-scale3: #C6C5CE;
+--gray-color-scale4: #C1C1C1;
+--gray-color-scale5: #E5E5E5;
+--gray-color-scale6: #F1F0F5;
+--gray-color-scale7: #FFFFFF;
+}
+ //Estilização do botão
+button{
+    width: 132px;
+    height: 45px;
+    border-radius: 50px;
+    color:#fff;
+    background-color: #ff9f10;
+    border: none;
+    margin-bottom: 0;
+  }
+
+
+/*Estilização de títulos 'H1'*/
+h1{
+    color:var(--color-primary);
+    font-weight: 700;
+    text-align: center;
+    font-size: 26px; 
+}
+
+/*Estilização de títulos 'H3'*/
+h3{
+    color:var(--color-primary);
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px; 
+    text-transform: initial;
+}
+h2{
+    /*Estilização de títulos 'H2'*/
+    color:var(--gray-color-scale1);
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px; 
+
+}
+
+.input{
+    height: 45px;
+    width: 100%;
+    background-color: #f1f0f5;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    font-size: 0.9em;
+    padding:  15px 10px;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #33303E;
+  }
+  

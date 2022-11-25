@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{  
+    width: 110px;
+}
+.componentes-sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.sidebar {
+  width: 340px;
+  padding: 20px 0;
+  background-color: #F1F0F5;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .sidebar-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 16px;
+}
+.sidebar-content .list {
+  list-style: none;
+  text-decoration: none;
+  
+}
+.list .nav-link {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding: 14px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.lists .nav-link:hover {
+  background-color: #398414;
+  border-radius: 56px;
+  width: 210px;
+  
+}
+.nav-link .icon {
+  margin-right: 14px;
+  font-size: 20px;
+  color: #2F3033;
+}
+.nav-link .link {
+  font-size: 16px;
+  color: #2F3033;
+  font-weight: 400;
+}
+.lists .nav-link:hover .icon,
+.lists .nav-link:hover .link {
+  color: #FFF;
+  
+}
+hr{
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 130px;
+  background-color: var(--gray-color-scale6);
+  width: 230px;}
+
+
+
+ .list{
+  margin-left: 30px;
+ list-style: none;
+  
+}
+
+.circle{
+  width: 25px;
+  color: #000;
+}
+.outside{
+
+  margin-top: 170px;
+  margin-left: 35px;
+}
+.lists{
+  margin-left: 35px;
+  margin-top: -80px; 
+}
+.logo-img{
+  margin: 0 auto;
+}
+.solicitante{
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+
+}
+.titulo{
+  display: flex;
+  flex-direction: column;
+  ;
+  margin-top: 60px;
+  margin-left:60px;
+  margin-bottom: 96px;
+  
+}
+
+.campo-cadastro {
+  display: flex;
+  margin-left: 60px;  
+  gap: 15px 40px;
+  margin-bottom: 32px;
+  
+
+}
+.input{
+  width: 432px;
+  height: 40px;
+  
+}
+.input::placeholder{
+  color: #3536389c;
+  font-weight: 500;
+  padding-left:10px;
+ 
+}
+select{
+  display: flex;
+  height: 40px;
+  width: 432px;
+  background-color: #f1f0f5;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  font-size: 0.9em;
+  padding:   10px;
+  font-weight: 500;
+  color: #3536389c;
+}
+#description{
+  width: 904px;
+  height: 136px;
+}
