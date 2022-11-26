@@ -1,10 +1,10 @@
 <main>
   <section class="login">
 
-  <div class="wrapper">
+  <div class="itens">
       <img src="../../assets/logo.png" class="login_logo">
 
-      <h1 class="login_title">Agendamento de <br>
+      <h1 class="titulo_principal">Agendamento de <br>
         Espaços</h1>
   
       <label class="login_label">
@@ -13,19 +13,21 @@
       </label>
 
       <label class="login_label">
-        <input type="password" name="password" placeholder="Senha"  class="input">
-      </label>   
+        <input [type]="mostrarsenha ? 'text' : 'password'" name="password" placeholder="Senha"  class="input">
+      </label>
+      <img id="eye" class="image" [src]="mostrarsenha ?  '../../assets/eye 1.svg' : '../../assets/eye-off.svg' " (click)="visibilidadesenha()" >
     
-      <a href="#"><button type="submit" class="submit-btn">Entrar</button></a>
+      <button>Entrar</button>
+
+     
 
       <div class="contato">
-        <h3 class="semi-bold">Dúvidas? entre em contato</h3>
+        <h3 class="subtitulo">Dúvidas? entre em contato</h3>
         <ul class="lista">
           <li class="num1">comunicacao@fsnt.com.br</li>
           <li class="num2">(14) 3405-2033</li>
 
         </ul>
-      
       </div>
       <img src="../../assets/logo_transparente.png" class="login_logo_fsnt">
                
