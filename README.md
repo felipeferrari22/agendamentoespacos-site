@@ -1,27 +1,23 @@
-# Agendamento
+# Agendamento de Espaços
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+**Este é o Repositório do Site de Agendamento de Espaços, desenvolvido por alunos do Synapse (2022/2).**
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 👨‍💻 Desenvolvido utilizando
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="35px">  •  **Angular** &nbsp;&nbsp;&nbsp;&nbsp; | 
+&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="35px">  •  **HTML5** &nbsp;&nbsp;&nbsp;&nbsp; |
+&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="35px"> • **CSS3** &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="35px"> • **TypeScript**
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🤝 Colaboradores
 
-## Build
+<img src="https://avatars.githubusercontent.com/u/78982963?s=64&v=4" height="35px"> **[ • Felipe Ferrari](https://github.com/felipeferrari22 " • Felipe Ferrari")**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img src="https://avatars.githubusercontent.com/u/98772195?v=4" height="35px"> **[ • Henrique Garcia](https://github.com/rikegb " • Henrique Garcia")**
 
-## Running unit tests
+<img src="https://avatars.githubusercontent.com/u/79113693?v=4" height="35px"> **[ • Karin Angela](https://github.com/KarinAngela " • Karin Angela")**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img src="https://avatars.githubusercontent.com/u/105088725?v=4" height="35px"> **[ • Lucas Finoti](https://github.com/lucasfinotirodrigues " • Lucas Finoti")**
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://avatars.githubusercontent.com/u/111604032?v=4" height="35px"> **[ • Ricardo Alexandre](https://github.com/Ricardoxt1 " • Ricardo Alexandre")**
