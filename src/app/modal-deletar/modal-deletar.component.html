@@ -1,0 +1,26 @@
+<div class="modal">
+    <div class="componentes-modal">
+      <h2>Deletar Solicitante?</h2>
+    
+        <div class="list">
+        <div class="informacoes">
+          <img class="icon" src="../../assets/1.png" alt="">
+          <span class="link">{{exibirSolicitante.nome}}</span>
+        </div>
+        <div class="informacoes">
+            <img class="icon" src="../../assets/2.png" alt="">
+            <span class="link">{{exibirSolicitante.empresa}}</span>
+        </div>
+        <div class="informacoes">
+            <img class="icon" src="../../assets/5.png" alt="">
+            <span class="link">{{exibirSolicitante.telefone}}</span>
+        </div>
+       
+        </div>
+        <button class="not" (click)="fecharModal()">Não</button>
+        <button class="yes" (click)="deletarUsuario()">Sim</button>
+    
+    </div>
+    <img class="exit" src="../../assets/exit.png">
+    
+    </div>

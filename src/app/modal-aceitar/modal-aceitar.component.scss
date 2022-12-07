@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200&display=swap');
+
+.link{
+    font-family: var(--font-family-second);
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 44px;
+    
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: var(--font-family-second);
+    color:var(--gray-color-scale1);
+    font-weight: 700;
+    text-align: left;
+    font-size: 32px; 
+    text-transform: initial;
+}
+.modal{
+    display: flex;
+    flex-direction: row;
+}
+
+.exit{
+    width: 40px;
+    height: 40px;
+    margin-top: 36px;
+    margin-right: 14px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.informacoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.not{
+    font-family: var(--font-family-primary);
+    background-color: var(--color-first);
+    margin-left: 40px;
+    font-size: 24px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+.yes{
+    font-family: var(--font-family-primary);
+    background-color: var(--color-second);
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: 300;
+}

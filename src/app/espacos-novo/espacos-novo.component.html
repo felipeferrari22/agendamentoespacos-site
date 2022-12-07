@@ -1,0 +1,113 @@
+<div class="container">
+  <div class="sidebar">
+    <div class="componentes-sidebar">
+      <div class="logo-img">
+        <img src="../../assets/logo.png" class="logo"> 
+        
+      </div>
+  <hr>
+  <ul class="lists">
+    <li class="list">
+      <a [routerLink]="['/solicitacoes']" class="nav-link">
+        <img src="../../assets/clock.png"  class="icon">
+        <span class="link">Solicitações</span>
+      </a>
+    </li>
+    <li class="list">
+      <a [routerLink]="['/solicitacoes-confirmadas']" class="nav-link">
+        <img src="../../assets/check-circle.png"  class="icon">
+        <span class="link">Agendamentos Confirmados</span>
+      </a>
+    </li>
+
+    <li class="list">
+      <a [routerLink]="['/solicitantes']" class="nav-link">
+        <img src="../../assets/edit.png" class="icon">
+      <span class="link">Solicitantes</span>
+      </a>
+    </li>
+    <li class="list">
+        <a [routerLink]="['/perfis']" class="nav-link">
+          <img src="../../assets/user.png"  class="icon">
+          <span class="link">Perfis</span>  
+        </a>
+      </li>
+      <li class="list">
+        <a [routerLink]="['/espacos']" class="nav-link">
+          <img src="../../assets/home.png"  class="icon">
+          <span class="link">Espaços</span>
+        </a>
+      </li>
+  </ul>
+
+  <div class="outside">
+    <li class="list">
+    <a href="" class="nav-link">
+      <img src="../../assets/log-out.png"  class="icon">
+        <span class="link">Sair</span>
+      </a>
+    </li>
+  </div>
+    
+  
+
+    </div>
+
+</div>
+    
+    <div class="form">
+      <!--Ínicio do header-->
+        <div class="titulo">
+          <h2>Olá, Administrador</h2>
+          <h3 class="solicitante">Cadastre aqui o seu novo espaço</h3>
+        </div>
+  
+  
+      <!--Início dos inputs-->
+      <div class="campo-cadastro">
+        
+              
+          <input type="text" placeholder="Nome" class="input" [(ngModel)]="espaco.nome">
+          <input type="text" placeholder="Proximidade" class="input" [(ngModel)]="espaco.ponto_referencia">
+        
+          
+      </div>
+  
+      
+  
+      <div class="campo-cadastro">
+        
+       
+        <input type="text" placeholder="Descrição" class="input" id="description" [(ngModel)]="espaco.descricao">
+       
+        
+      
+        
+    </div>
+    
+    <div class="botao">
+    <button (click)="cadastrarEspaco()">Cadastrar</button>
+    </div>
+  
+  
+  
+    <footer>
+      <hr class="line">
+      <div class="rodape">
+      
+      <img src="../../assets/logo_transparente.png" class="logo_fsnt">
+      <h3 class="subtitulo">Dúvidas? entre em contato</h3>
+          
+            <p class="num1">comunicacao@fsnt.com.br</p>
+            <p class="num2">(14) 3405-2033</p>
+            
+      </div>
+    </footer>     
+      
+          
+        
+    </div>
+  
+   
+  </div>
+  

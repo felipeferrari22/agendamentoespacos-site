@@ -1,0 +1,29 @@
+<div class="modal">
+<div class="componentes-modal">
+  <h2>Aprovação</h2>
+
+    <div class="list">
+    <div class="informacoes">
+      <img class="icon" src="../../assets/1.png" alt="">
+      <span class="link">{{exibirSolicitacao.usuario_nome}}</span>
+    </div>
+    <div class="informacoes">
+        <img class="icon" src="../../assets/2.png" alt="">
+        <span class="link">{{exibirSolicitacao.usuario_empresa}}</span>
+    </div>
+    <div class="informacoes">
+        <img class="icon" src="../../assets/3.png" alt="">
+        <span class="link">{{exibirSolicitacao.data}} -  {{exibirSolicitacao.horario_entrada}} / {{exibirSolicitacao.horario_saida}}</span>
+    </div>
+    <div class="informacoes">
+        <img class="icon" src="../../assets/4.png" alt="">
+        <span class="link">{{exibirSolicitacao.espaco}}</span>
+    </div>
+    </div>
+    <button class="not" (click)="funcaoNot()">Negar</button>
+    <button class="yes" (click)="funcaoYes()">Aceitar</button>
+
+</div>
+<img class="exit" src="../../assets/exit.png">
+
+</div>

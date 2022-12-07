@@ -1,37 +1,40 @@
 <main>
-  <section class="login">
-
-  <div class="wrapper">
-      <img src="../../assets/logo.png" class="login_logo">
-
-      <h1 class="login_title">Agendamento de <br>
-        Espaços</h1>
+    <section class="login">
   
-      <label class="login_label">
-        
-        <input type="text" name="username" placeholder="E-mail"class="input">
-      </label>
-
-      <label class="login_label">
-        <input type="password" name="password" placeholder="Senha"  class="input">
-      </label>   
+    <div class="itens">
+        <img src="../../assets/logo.png" class="login_logo">
+  
+        <h1 class="titulo_principal">Agendamento de <br>
+          Espaços</h1>
     
-      <a href="#"><button type="submit" class="submit-btn">Entrar</button></a>
-
-      <div class="contato">
-        <h3 class="semi-bold">Dúvidas? entre em contato</h3>
-        <ul class="lista">
-          <li class="num1">comunicacao@fsnt.com.br</li>
-          <li class="num2">(14) 3405-2033</li>
-
-        </ul>
+        <label class="login_label">
+          
+          <input type="text" name="username" placeholder="E-mail"class="input" [(ngModel)]="username">
+        </label>
+  
+        <label class="login_label">
+          <input [type]="mostrarsenha ? 'text' : 'password'" name="password" placeholder="Senha"  class="input" [(ngModel)]="password">
+        </label>
+        <img id="eye" class="image" [src]="mostrarsenha ?  '../../assets/eye-on.svg' : '../../assets/eye-off.svg' " (click)="visibilidadesenha()" >
       
-      </div>
-      <img src="../../assets/logo_transparente.png" class="login_logo_fsnt">
-               
-  </div>    
-   </section>
-   
-
-  <section class="wallpaper"></section>
-</main>
+        <a><button (click)="login()" id="botao-entrar">Entrar</button></a>
+  
+       
+  
+        <div class="contato">
+          <h3 class="subtitulo">Dúvidas? entre em contato</h3>
+          <ul class="lista">
+            <li class="num1">comunicacao@fsnt.com.br</li>
+            <li class="num2">(14) 3405-2033</li>
+  
+          </ul>
+        </div>
+        <img src="../../assets/logo_transparente.png" class="login_logo_fsnt">
+                 
+    </div>    
+     </section>
+     
+  
+    <section class="wallpaper"></section>
+  </main>
+  

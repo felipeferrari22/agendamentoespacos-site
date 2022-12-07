@@ -1,0 +1,107 @@
+<div class="container">
+  <div class="sidebar">
+      <div class="componentes-sidebar">
+        <div class="logo-img">
+          <img src="../../assets/logo.png" class="logo"> 
+          
+        </div>
+    <hr>
+    <ul class="lists">
+      <li class="list">
+        <a [routerLink]="['/solicitar']" class="nav-link">
+          <img src="../../assets/Vector.png"  class="icon">
+          <span class="link">Solicitar Espaço</span>
+        </a>
+      </li>
+
+      <li class="list">
+        <a [routerLink]="['/visualizar']" class="nav-link">
+          <img src="../../assets/calendar-clear-outline.png"  class="icon">
+          <span class="material-symbols-outlined">
+           
+            </span>
+        <span class="link">Visualizar Agendamentos</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="outside">
+      <li class="list">
+      <a routerLink="/" class="nav-link">
+        <img src="../../assets/log-out.png"  class="icon">
+          <span class="link">Sair</span>
+        </a>
+      </li>
+    </div>
+      
+    
+
+      </div>
+
+  </div>
+  
+  <div class="form">
+    <!--Ínicio do header-->
+      <div class="titulo">
+        <h2>Olá, Solicitante.</h2>
+        <h3 class="solicitante">Solicite aqui o espaço que precisa</h3>
+      </div>
+
+
+    <!--Início dos inputs-->
+    <div class="campo-cadastro">
+
+        <select [(ngModel)]="espacoSelecionado">
+          <option value="0"> Selecione um Espaço </option>
+          <option *ngFor="let espaco of espacos" name="espaco" value={{espaco.id}}> {{ espaco.nome }} </option>
+        </select>
+        
+        <input type="text" name="data" placeholder="Data" onfocus="(this.type='date')" onblur="(this.type='text')" class="input" [(ngModel)]="data">
+      
+        
+    </div>
+
+    <div class="campo-cadastro">
+      
+     
+      <input type="text" name="horario_entrada" placeholder="Horário entrada" onfocus="(this.type='time')" onblur="(this.type='text')" class="input" [(ngModel)]="horario_entrada">
+      <input type="text" name="horario_saida" placeholder="Horário saída " onfocus="(this.type='time')" onblur="(this.type='text')" class="input" [(ngModel)]="horario_saida">
+      
+        
+    </div>
+
+    <div class="campo-cadastro">
+      
+     
+      <input type="text" name="descricao" placeholder="Descrição: Preciso de notebook e datashow. " class="input" id="description" [(ngModel)]="descricao">
+      
+    
+      
+  </div>
+  
+  <div class="botao">
+  <button (click)="solicitar()" >Enviar</button>
+  </div>
+
+
+
+  <footer>
+    <hr class="line">
+    <div class="rodape">
+    
+    <img src="../../assets/logo_transparente.png" class="logo_fsnt">
+    <h3 class="subtitulo">Dúvidas? entre em contato</h3>
+        
+          <p class="num1">comunicacao@fsnt.com.br</p>
+          <p class="num2">(14) 3405-2033</p>
+
+       
+    </div>
+  </footer>     
+    
+        
+      
+  </div>
+
+ 
+</div>
