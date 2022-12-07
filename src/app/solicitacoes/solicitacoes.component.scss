@@ -78,7 +78,7 @@ hr{
   margin-left: 35px;
   margin-bottom: 130px;
   background-color: var(--gray-color-scale6);
-  width: 230px;}
+  width: 280px;}
 
 
 
@@ -180,7 +180,7 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content:space-around;
-  padding-top: 20px;}
+  padding-top: 0px;}
   
 .logo_fsnt{
 width: 190px;
@@ -198,14 +198,14 @@ padding-bottom: -20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 350px;
     margin-left: 40px;
 }
 
 .content-table {
     
     border-collapse: collapse;
-    margin:      0;
+    margin:      5;
     font-size: 0.9em;
     width: 930px;
     border-radius: 25px 25px 0 0;
@@ -251,3 +251,11 @@ td{
 .sidebar {
 padding-bottom: 800px;
 }
+
+.line{
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  width: 125%;
+  color:#d3d3d3;
+ }

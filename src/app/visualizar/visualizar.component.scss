@@ -27,7 +27,7 @@
   width: 340px;
   margin-top: -15px;
   padding: 20px;
-  padding-bottom: 690px;
+  padding-bottom: 780px;
   background-color: #F1F0F5;
   box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
 }
@@ -236,3 +236,10 @@ td{
   color: var(--gray-color-scale1);
   text-transform: initial;
 }
+.line{
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  width: 125%;
+  color:#d3d3d3;
+ }

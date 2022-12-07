@@ -27,7 +27,7 @@
   width: 340px;
   margin-top: -15px;
   padding: 20px;
-  padding-bottom: 800px;
+  padding-bottom: 900px;
   background-color: #F1F0F5;
   box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
 }
@@ -261,5 +261,13 @@ td,th{
 }
 
 .sidebar {
-padding-bottom: 800px;
+padding-bottom: 880px;
 }
+
+.line{
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  width: 125%;
+  color:#d3d3d3;
+ }
